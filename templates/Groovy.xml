@@ -1,0 +1,47 @@
+<templateSet group="Groovy">
+  <template name="gwt" value="given:&#10;$END$&#10;when:&#10;&#10;then:" description="Generates labels for given-when-then format" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="iae" value="if (!$ARGUMENT_NAME$) {&#10;  throw new IllegalArgumentException('$ARGUMENT_NAME$')&#10;}" description="Illegal argument check" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGUMENT_NAME" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="wt" value="when:&#10;$END$&#10;then:" description="Generates labels for given-when-then format" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="gl" value="List&lt;$ITEM_TYPE$&gt;" description="Creates a generic list" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM_TYPE" expression="" defaultValue="&quot;Map&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="ll" value="$LOG_VARIABLE$.$LOG_LEVEL_METHOD$($END$)" description="Add a log statement" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG_VARIABLE" expression="" defaultValue="&quot;log&quot;" alwaysStopAt="true" />
+    <variable name="LOG_LEVEL_METHOD" expression="" defaultValue="&quot;info&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ppsf" value="private static final $TYPE$ $NAME$ = $VALUE$" description="Creates a private constant" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="&quot;Object&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;NAME&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="''" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ls" value="// lasl321 $END$" description="Adds custom lasl321 comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

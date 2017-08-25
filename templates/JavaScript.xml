@@ -1,9 +1,0 @@
-<templateSet group="JavaScript">
-  <template name="cl" value="console.log(new Date().toTimeString(), '$CONTEXT$', $MESSAGE$);" description="Prints out message" toReformat="true" toShortenFQNames="true">
-    <variable name="CONTEXT" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="MESSAGE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-</templateSet>

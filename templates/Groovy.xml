@@ -22,8 +22,8 @@
     </context>
   </template>
   <template name="ll" value="$LOG_VARIABLE$.$LOG_LEVEL_METHOD$($END$)" description="Add a log statement" toReformat="false" toShortenFQNames="true">
-    <variable name="LOG_VARIABLE" expression="" defaultValue="&quot;log&quot;" alwaysStopAt="true" />
-    <variable name="LOG_LEVEL_METHOD" expression="" defaultValue="&quot;info&quot;" alwaysStopAt="true" />
+    <variable name="LOG_VARIABLE" expression="enum(&quot;log&quot;,&quot;logger&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOG_LEVEL_METHOD" expression="enum(&quot;info&quot;,&quot;warn&quot;,&quot;error&quot;,&quot;debug&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GROOVY_STATEMENT" value="true" />
     </context>

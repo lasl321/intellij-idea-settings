@@ -6,7 +6,7 @@
     </context>
   </template>
   <template name="ac" value="-- $DATE$ luis.sotomayor" description="Adds an alter comment" toReformat="false" toShortenFQNames="true">
-    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="SQL" value="true" />
     </context>

@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="html files" />
-    <option name="defaultScopeName" value="html files" />
-    <option name="SEARCH_SCOPE" value="html files" />
+    <option name="customScope" value="js files" />
+    <option name="defaultScopeName" value="js files" />
+    <option name="SEARCH_SCOPE" value="js files" />
   </component>
 </application>

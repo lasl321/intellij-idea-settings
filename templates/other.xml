@@ -1,7 +1,0 @@
-<templateSet group="other">
-  <template name="jj" value="-&gt;" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="GROOVY_EXPRESSION" value="true" />
-    </context>
-  </template>
-</templateSet>

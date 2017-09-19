@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All JavaScript" />
-    <option name="defaultScopeName" value="All JavaScript" />
-    <option name="SEARCH_SCOPE" value="All JavaScript" />
+    <option name="customScope" value="All markup" />
+    <option name="defaultScopeName" value="All markup" />
+    <option name="SEARCH_SCOPE" value="All markup" />
   </component>
 </application>

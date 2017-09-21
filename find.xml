@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All JavaScript" />
-    <option name="defaultScopeName" value="All JavaScript" />
-    <option name="SEARCH_SCOPE" value="All JavaScript" />
+    <option name="customScope" value="File '.../grails-app/controllers/com/stanson/cms/AtomicIndicationController.groovy - [stanson]'" />
+    <option name="defaultScopeName" value="File '.../grails-app/controllers/com/stanson/cms/AtomicIndicationController.groovy - [stanson]'" />
+    <option name="SEARCH_SCOPE" value="File '.../grails-app/controllers/com/stanson/cms/AtomicIndicationController.groovy - [stanson]'" />
   </component>
 </application>

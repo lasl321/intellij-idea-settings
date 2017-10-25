@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="All JavaScript" />
-    <option name="defaultScopeName" value="All JavaScript" />
+    <option name="customScope" value="File '.../grails-app/assets/javascripts/directives/intervention/predicate-panel-editor.js - [stanson]'" />
+    <option name="defaultScopeName" value="File '.../grails-app/assets/javascripts/directives/intervention/predicate-panel-editor.js - [stanson]'" />
     <option name="regularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="All JavaScript" />
+    <option name="SEARCH_SCOPE" value="File '.../grails-app/assets/javascripts/directives/intervention/predicate-panel-editor.js - [stanson]'" />
   </component>
 </application>
